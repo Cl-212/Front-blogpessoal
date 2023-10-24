@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 import Login from "./pages/login/Login";
@@ -8,12 +5,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import { ToastContainer } from "react-toastify";
 import Cadastro from "./pages/cadastro/Cadastro";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/navBar/NavBar";
 import Home from "./pages/home/Home";
 import Footer from "./components/footer/Footer";
-import ListaTemas from "./components/temas/listaTemas/ListaTemas";
-import FormularioTema from "./components/temas/formularioTema/FormularioTema";
-import DeletarTema from "./components/temas/deletarTema/DeletarTema";
+import ListaTemas from "./components/Temas/listaTemas/ListaTemas";
+import FormularioTema from "./components/Temas/formularioTema/FormularioTema";
+import DeletarTema from "./components/Temas/deletarTema/DeletarTema";
 import ListaPostagens from "./components/postagens/listaPostagens/ListaPostagens";
 import FormularioPostagem from "./components/postagens/formularioPostagem/FormularioPostagem";
 
